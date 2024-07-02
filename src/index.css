@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blur {
+  width: 80%;
+  height: 60px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.416);
+  position: fixed;
+  top: 20px;
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  width: 800px;
+  height: 500px;
+  background: blue;
+}
+
+header {
+  position: fixed;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
